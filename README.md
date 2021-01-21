@@ -1,7 +1,8 @@
 # poLYG
 Polygon area minimization and maximization as in CG:SHOP challenge 2019
 
-'''pypy3 poLYG.py [args] inputfile
+```
+pypy3 poLYG.py [args] inputfile
 
 Inputfile extensions are ignored. Args are of the form variable=value (no space, no dash). In fact, they will be executed with python exec(arg), so feel free to add formulas that depend on n or other parameters.  Some variables and their default values are:
 
@@ -13,4 +14,5 @@ hops=1   % Value of ell for the local search
 multirun=False   % Run many times
 sigma=0   % Gaussian noise of the weight function
 seed=1   % Random seed
-timeout=150   % Maximum number of seconds to start a new run'''
+timeout=150   % Maximum number of seconds to start a new run
+```
