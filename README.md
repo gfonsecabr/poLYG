@@ -4,7 +4,10 @@ Polygon area minimization and maximization as in CG:SHOP challenge 2019
 ```
 pypy3 poLYG.py [args] inputfile
 
-Inputfile extensions are ignored. Args are of the form variable=value (no space, no dash). In fact, they will be executed with python exec(arg), so feel free to add formulas that depend on n or other parameters.  Some variables and their default values are:
+Inputfile extensions are ignored. Args are of the form variable=value (no space, no dash).
+In fact, they will be executed with python exec(arg), so feel free to add formulas that depend on n or other parameters.
+
+Some variables and their default values are:
 
 maximize=True   % Maximum or minimum area
 pen=90   % Parameter 1/alpha of the weight function
