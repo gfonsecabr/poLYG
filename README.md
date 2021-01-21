@@ -1,5 +1,10 @@
 # poLYG
-Polygon area minimization and maximization as in CG:SHOP challenge 2019
+Polygon area minimization and maximization as in [CG:SHOP challenge 2019](https://cgshop.ibr.cs.tu-bs.de/competition/cg-shop-2019/#problem-description). This algorithm got the 2nd place in the challenge.
+
+Team:
+- [Guilherme Dias da Fonseca](https://pageperso.lis-lab.fr/guilherme.fonseca/)
+- Loic Combrez
+- [Yan Gerard](https://yangerard.wordpress.com/)
 
 ```
 pypy3 poLYG.py [args] inputfile
