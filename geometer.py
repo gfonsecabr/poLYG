@@ -2,7 +2,7 @@ import sys
 from primitives import *
 import itertools
 
-# Cell of segment s
+# Grid implementation for faster segment intersection and points near segmetns
 
 class Geometer:
   
