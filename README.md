@@ -15,12 +15,12 @@ In fact, they will be executed with python exec(arg), so feel free to add formul
 Some variables and their default values are:
 
 maximize=True   % Maximum or minimum area
-pen=90   % Parameter 1/alpha of the weight function
-hood=2   % Neighborhood kappa of an edge
-opt=True   % Apply local search optimization
-hops=1   % Value of ell for the local search
-multirun=False   % Run many times
-sigma=0   % Gaussian noise of the weight function
-seed=1   % Random seed
-timeout=150   % Maximum number of seconds to start a new run
+pen=90          % Parameter 1/alpha of the weight function
+hood=2          % Neighborhood kappa of an edge
+opt=True        % Apply local search optimization
+hops=1          % Value of ell for the local search
+multirun=False  % Run many times
+sigma=0         % Gaussian noise of the weight function
+seed=1          % Random seed
+timeout=150     % Maximum number of seconds to start a new run
 ```
