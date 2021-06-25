@@ -64,6 +64,7 @@ def greedy_start(pts):
     # Start with the convex hull including vertices on edges
     poly = convex_hull2(pts)
   else:
+    # Start with a random triangle
     p1 = random.choice(pts)
     p2 = min(set(pts) - {p1}, key = lambda p : sqdist(p,p1))
     p3 = min(set(pts) - {p1,p2}, key = lambda p : dist(p,p1) + dist(p,p2))
