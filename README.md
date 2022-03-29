@@ -1,5 +1,5 @@
 # poLYG
-Polygon area minimization and maximization as in [CG:SHOP challenge 2019](https://cgshop.ibr.cs.tu-bs.de/competition/cg-shop-2019/#problem-description). This algorithm got the 2nd place in the challenge.
+Polygon area minimization and maximization as in [CG:SHOP challenge 2019](https://cgshop.ibr.cs.tu-bs.de/competition/cg-shop-2019/#problem-description). This algorithm got the 2nd place in the challenge. The paper descring the results is available at http://dx.doi.org/10.1145/3503999 and also at https://arxiv.org/abs/2106.14728
 
 Team:
 - Loic Crombez
